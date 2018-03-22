@@ -19,6 +19,7 @@
   - Set default value of `application_options::enable_subscribe_to_all` to `true` #740
 * Added assertion messages in account evaluator. #736
 * Added `broadcast_transaction` method for broadcasting transaction signed by … #656
+* Added CLI wallet test framework #675
 * Added get_top_markets #737
 * Added `get_top_markets` API #512
 * Added Output Boost and OpenSSL Version #579
@@ -35,6 +36,7 @@
 
 ## Bugfixes
 * Fixed #436 object_database created outside of witness data directory #689
+* Fixed add_secondary_index on gcc7 #761
 * Fixed broken HTTP headers in Elasticsearch requests #653
 * Fixed Cherry-pick websocketpp for Linux kernel higher than 4.4.0 #701
 * Fixed CLI `account_update` related commands #576
@@ -46,6 +48,7 @@
 * Fixed object_database created outside of witness data directory when witness_node is started with `--replay` #436
 * Fixed outdated header comments in egenesis_brief.cpp.tmpl and egenesis_full.cpp.tmpl #728
 * Fixed some more code sanitizer errors #644
+* Fixed variant conversion issue in get_full_account #763
 
 
 ## Other changes
