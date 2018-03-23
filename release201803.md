@@ -20,15 +20,12 @@
 * Added assertion messages in account evaluator. #736
 * Added `broadcast_transaction` method for broadcasting transaction signed by … #656
 * Added CLI wallet test framework #675
-* Added get_top_markets #737
-* Added `get_top_markets` API #512
-* Added Output Boost and OpenSSL Version #579
-* Added SSL, Boost and websocket to Version commands #610
-* Added New plugin and API: grouped orders #639
+* Added `get_top_markets` API #512, #737
+* Added SSL, Boost and websocket to Version commands #579, #610
+* Added New plugin and API: grouped orders #639, #662
 * Added `withdraw_permission` API calls #676
 * Changed `get_account_history` API call #628 (for issue #613)
 * Enabled Travis-CI for develop branch #748
-* Implemented grouped orders API plugin #662
 * Issue491: Minor delta_debt amount check issue in `call_order_update_evaluator` #609
 * Partially fixed Issue #151: CLI account caching #640
 * Port plugin sanitization code from Steem to BitShares #468 #660
