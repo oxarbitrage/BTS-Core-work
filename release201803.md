@@ -42,15 +42,28 @@
 * Fixed some more code sanitizer errors #644
 * Fixed variant conversion issue in get_full_account #763
 
+## Bitshares FC
+
+* Replace readline library https://github.com/bitshares/bitshares-fc/pull/12 - https://github.com/bitshares/bitshares-fc/pull/16 - https://github.com/bitshares/bitshares-fc/pull/17
+* Added Doxygen support to project https://github.com/bitshares/bitshares-fc/pull/12
+* Fixed JSON parsing https://github.com/bitshares/bitshares-fc/pull/15
+* Update websocketpp submodule to a forked and patched version(After merged, need to run `git submodule sync --recursive` to update local repository) https://github.com/bitshares/bitshares-fc/pull/18 
+* Fix default standard c++ at CMakeLists https://github.com/bitshares/bitshares-fc/pull/19/ 
+* Fix serialization https://github.com/bitshares/bitshares-fc/pull/20
+* Fix variant https://github.com/bitshares/bitshares-fc/pull/21
+* Fix class serialization https://github.com/bitshares/bitshares-fc/pull/22
+* Fix MacOS build https://github.com/bitshares/bitshares-fc/pull/24 - https://github.com/bitshares/bitshares-fc/pull/25
+* Add Travis support and fix output https://github.com/bitshares/bitshares-fc/pull/27 - https://github.com/bitshares/bitshares-fc/pull/28 - https://github.com/bitshares/bitshares-fc/pull/30 - https://github.com/bitshares/bitshares-fc/pull/31
+* Remove unused c++14 flag in CMakeLists https://github.com/bitshares/bitshares-fc/pull/32
+* Skip editline in windows build https://github.com/bitshares/bitshares-fc/pull/34
+
 
 ## Other changes
 * Changed to intense block_tests #718
 * Replaced readline library, Issue 673 #685 (-for peer review. Submitted a PR to fc repo: bitshares/bitshares-fc#16 #17.)
-* Replace readline library #673 (-bitshares/bitshares-fc#14)
 * Removed unused transaction_object.cpp #667
 * Removed `by_feed_expiration` index from `asset_bitasset_data_object` #652
 * Removed redundant template func add_secondary_index #749
-* 
 * Removed unused index.cpp file #638
 
 
