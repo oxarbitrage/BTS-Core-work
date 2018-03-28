@@ -73,7 +73,5 @@
 * @ryanRfox
 * @zhuliting
 
-## SHA256 Checksum
-* `BitShares-Core-2.0.180203-x64--cli-tools.zip `: Windows 
 
 
