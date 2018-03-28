@@ -24,20 +24,15 @@
 * Pushed settle_order changes if subscribed to market https://github.com/bitshares/bitshares-core/issues/745 - https://github.com/bitshares/bitshares-core/pull/747
 
 ## Bugfixes
-* Fixed #436 object_database created outside of witness data directory #689
-* Fixed add_secondary_index on gcc7 #761
-* Fixed broken HTTP headers in Elasticsearch requests #653
-* Fixed Cherry-pick websocketpp for Linux kernel higher than 4.4.0 #701
-* Fixed CLI `account_update` related commands #576
-* Fixed cull-small issue in `check_call_orders` #697
-* Fixed #721 disconnect a peer due to request timeout #722
-  - Bug in terminate_inactive_connections_loop function in node.cpp #721
-* Fixed `fee_refund_test fails` #615
-* Fixed JSON #714 - Updated serialization for extension class #723
-* Fixed object_database created outside of witness data directory when witness_node is started with `--replay` #436
-* Fixed outdated header comments in egenesis_brief.cpp.tmpl and egenesis_full.cpp.tmpl #728
-* Fixed some more code sanitizer errors #644
-* Fixed variant conversion issue in get_full_account #763
+* Fixed https://github.com/bitshares/bitshares-core/issues/436 object_database created outside of witness data directory https://github.com/bitshares/bitshares-core/pull/689
+* Fixed build on gcc7 https://github.com/bitshares/bitshares-core/pull/761
+* Fixed broken HTTP headers in Elasticsearch requests https://github.com/bitshares/bitshares-core/pull/653
+* Fixed cull-small issue in `check_call_orders` https://github.com/bitshares/bitshares-core/pull/697
+* Fixed disconnect a peer due to request timeout https://github.com/bitshares/bitshares-core/issues/721 - https://github.com/bitshares/bitshares-core/pull/722
+* Fixed `fee_refund_test fails` https://github.com/bitshares/bitshares-core/issues/615 - https://github.com/bitshares/bitshares-core/pull/616
+* Fixed JSON https://github.com/bitshares/bitshares-core/pull/714 - Updated serialization for extension class https://github.com/bitshares/bitshares-core/pull/723
+* Fixed some code sanitizer errors https://github.com/bitshares/bitshares-core/pull/644
+* Fixed variant conversion issue in get_full_account https://github.com/bitshares/bitshares-core/pull/763
 
 ## Bitshares FC
 
@@ -62,6 +57,7 @@
 * Removed `by_feed_expiration` index from `asset_bitasset_data_object` #652
 * Removed redundant template func add_secondary_index #749
 * Removed unused index.cpp file #638
+* Fixed outdated header comments in egenesis_brief.cpp.tmpl and egenesis_full.cpp.tmpl https://github.com/bitshares/bitshares-core/issues/728 - https://github.com/bitshares/bitshares-core/pull/734
 
 
 ## Contributors in this release:
