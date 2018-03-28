@@ -60,7 +60,7 @@
 * Removed redundant template func add_secondary_index https://github.com/bitshares/bitshares-core/pull/749
 * Removed unused index.cpp file https://github.com/bitshares/bitshares-core/pull/638
 * Fixed outdated header comments in egenesis_brief.cpp.tmpl and egenesis_full.cpp.tmpl https://github.com/bitshares/bitshares-core/issues/728 - https://github.com/bitshares/bitshares-core/pull/734
-* remove unused `transaction_object.cpp` file https://github.com/bitshares/bitshares-core/pull/667
+* Remove unused `transaction_object.cpp` file https://github.com/bitshares/bitshares-core/pull/667
 
 
 ## Contributors in this release:
