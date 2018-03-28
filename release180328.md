@@ -1,4 +1,4 @@
-# BitShares Core Release 2.0.182803
+# BitShares Core Release 2.0.180328
 
 @oxarbitrage release this on...
 
