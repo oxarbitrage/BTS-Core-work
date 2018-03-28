@@ -14,6 +14,8 @@
 ## Critical Bug Fixes
 
 ## Features and Improvements
+* Implement BSIP26 refund original fee #627
+  - Replaces #623. PR for #604
 
 ## Bugfixes
 
@@ -26,6 +28,7 @@
 * @pmconrad
 * @xeroc
 * @oxarbitrage
+* @ryanRfox
 
 
 ## SHA256 Checksum
