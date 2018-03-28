@@ -34,6 +34,7 @@
 * Fixed JSON https://github.com/bitshares/bitshares-core/pull/714 - Updated serialization for extension class https://github.com/bitshares/bitshares-core/pull/723
 * Fixed some code sanitizer errors https://github.com/bitshares/bitshares-core/pull/644
 * Fixed variant conversion issue in get_full_account https://github.com/bitshares/bitshares-core/pull/763
+* Fix docker build https://github.com/bitshares/bitshares-core/pull/765
 
 ## Bitshares FC
 
