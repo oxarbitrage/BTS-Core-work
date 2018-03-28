@@ -11,7 +11,7 @@
   - Temporarily removed enable-subscribe-to-all option (*Uncomment when GUI is ready) https://github.com/bitshares/bitshares-core/issues/740 - https://github.com/bitshares/bitshares-core/issues/743
 * Added assertion messages in account evaluator. https://github.com/bitshares/bitshares-core/issues/691 - https://github.com/bitshares/bitshares-core/pull/736
 * Added `broadcast_transaction` method for broadcasting transaction signed by cold wallet https://github.com/bitshares/bitshares-core/pull/656
-* Added CLI wallet test framework https://github.com/bitshares/bitshares-core/issues/674 - https://github.com/bitshares/bitshares-core/pull/675
+* Added CLI wallet test framework https://github.com/bitshares/bitshares-core/issues/674 - https://github.com/bitshares/bitshares-core/pull/675 - https://github.com/bitshares/bitshares-core/pull/767
 * Added `get_top_markets` API https://github.com/bitshares/bitshares-core/issues/512 - https://github.com/bitshares/bitshares-core/pull/737
 * Added SSL, Boost and websocket to `--version` commands output https://github.com/bitshares/bitshares-core/issues/579 - https://github.com/bitshares/bitshares-core/pull/610
 * Added New plugin and API: grouped orders https://github.com/bitshares/bitshares-core/issues/639 - https://github.com/bitshares/bitshares-core/pull/662
