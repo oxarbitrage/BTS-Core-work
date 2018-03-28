@@ -10,20 +10,18 @@
 * Added application option to disable `notify_remove_create` parameter in `set_subscribe_callback` API https://github.com/bitshares/bitshares-core/pull/725
   - Temporarily removed enable-subscribe-to-all option (*Uncomment when GUI is ready) https://github.com/bitshares/bitshares-core/issues/740 - https://github.com/bitshares/bitshares-core/issues/743
 * Added assertion messages in account evaluator. https://github.com/bitshares/bitshares-core/issues/691 - https://github.com/bitshares/bitshares-core/pull/736
-* Added `broadcast_transaction` method for broadcasting transaction signed by … #656
-* Added CLI wallet test framework #675
-* Added `get_top_markets` API #512, #737
-* Added SSL, Boost and websocket to Version commands #579, #610
-* Added New plugin and API: grouped orders #639, #662
-* Added `withdraw_permission` API calls #676
-* Added Travis-CI build status iconds for branches: master, develop, hardfork, testnet and bitshares-fc #748
-* Added New plugin: elasticsearch objects #500
-* Changed `get_account_history` API call #628 (for issue #613)
-* Enabled Travis-CI for develop branch #748
-* Issue491: Minor delta_debt amount check issue in `call_order_update_evaluator` #609
-* Partially fixed Issue #151: CLI account caching #640
-* Port plugin sanitization code from Steem to BitShares #468 #660
-* Pushed settle_order changes if subscribed to market #747 #745
+* Added `broadcast_transaction` method for broadcasting transaction signed by cold wallet https://github.com/bitshares/bitshares-core/pull/656
+* Added CLI wallet test framework https://github.com/bitshares/bitshares-core/issues/674 - https://github.com/bitshares/bitshares-core/pull/675
+* Added `get_top_markets` API https://github.com/bitshares/bitshares-core/issues/512 - https://github.com/bitshares/bitshares-core/pull/737
+* Added SSL, Boost and websocket to `--version` commands output https://github.com/bitshares/bitshares-core/issues/579 - https://github.com/bitshares/bitshares-core/pull/610
+* Added New plugin and API: grouped orders https://github.com/bitshares/bitshares-core/issues/639 - https://github.com/bitshares/bitshares-core/pull/662
+* Added Travis-CI build status support for branches: master, develop, hardfork and testnet https://github.com/bitshares/bitshares-core/pull/748 - https://github.com/bitshares/bitshares-core/pull/755 - https://github.com/bitshares/bitshares-core/issues/742 - https://github.com/bitshares/bitshares-core/issues/744
+* Added New plugin: elasticsearch objects https://github.com/bitshares/bitshares-core/pull/500/
+* Optimized refactor of `get_account_history` API call https://github.com/bitshares/bitshares-core/issues/613 - https://github.com/bitshares/bitshares-core/pull/628
+* Minor delta_debt amount check issue in `call_order_update_evaluator` https://github.com/bitshares/bitshares-core/issues/491 - https://github.com/bitshares/bitshares-core/pull/609
+* Partially fixed Issue https://github.com/bitshares/bitshares-core/issues/151: CLI account caching https://github.com/bitshares/bitshares-core/pull/640
+* Port plugin sanitization code from Steem to BitShares https://github.com/bitshares/bitshares-core/issues/468 - https://github.com/bitshares/bitshares-core/pull/661
+* Pushed settle_order changes if subscribed to market https://github.com/bitshares/bitshares-core/issues/745 - https://github.com/bitshares/bitshares-core/pull/747
 
 ## Bugfixes
 * Fixed #436 object_database created outside of witness data directory #689
@@ -77,6 +75,7 @@
 * @ihla
 * @marcialvieira
 * @ryanRfox
+* @zhuliting
 
 ## SHA256 Checksum
 * `BitShares-Core-2.0.180203-x64--cli-tools.zip `: Windows 
