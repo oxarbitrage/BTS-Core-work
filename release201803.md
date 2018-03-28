@@ -17,6 +17,7 @@
 * Added New plugin and API: grouped orders https://github.com/bitshares/bitshares-core/issues/639 - https://github.com/bitshares/bitshares-core/pull/662
 * Added Travis-CI build status support for branches: master, develop, hardfork and testnet https://github.com/bitshares/bitshares-core/pull/748 - https://github.com/bitshares/bitshares-core/pull/755 - https://github.com/bitshares/bitshares-core/issues/742 - https://github.com/bitshares/bitshares-core/issues/744
 * Added New plugin: elasticsearch objects https://github.com/bitshares/bitshares-core/pull/500/
+* Added proposer(fee_paying account) to proposals https://github.com/bitshares/bitshares-core/pull/608
 * Optimized refactor of `get_account_history` API call https://github.com/bitshares/bitshares-core/issues/613 - https://github.com/bitshares/bitshares-core/pull/628
 * Minor delta_debt amount check issue in `call_order_update_evaluator` https://github.com/bitshares/bitshares-core/issues/491 - https://github.com/bitshares/bitshares-core/pull/609
 * Partially fixed Issue https://github.com/bitshares/bitshares-core/issues/151: CLI account caching https://github.com/bitshares/bitshares-core/pull/640
