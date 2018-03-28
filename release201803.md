@@ -23,6 +23,7 @@
 * Added `get_top_markets` API #512, #737
 * Added SSL, Boost and websocket to Version commands #579, #610
 * Added New plugin and API: grouped orders #639, #662
+* Added New plugin: elasticsearch objects #500
 * Added `withdraw_permission` API calls #676
 * Changed `get_account_history` API call #628 (for issue #613)
 * Enabled Travis-CI for develop branch #748
