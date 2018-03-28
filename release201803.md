@@ -1,13 +1,6 @@
-## ****Draft****
+# BitShares Core Release 2.0.182803
 
-# BitShares Core Release 2.0.180203
 @oxarbitrage release this on...
-
-
-### Assets
-- BitShares-Core-2.0.180203
-- Source code(zip)
-- Source code(tar.gz)
 
 ## Security
 * Reviewed all new `FC_ASSERT` added to next milestone #678
@@ -24,6 +17,8 @@
 * Added SSL, Boost and websocket to Version commands #579, #610
 * Added New plugin and API: grouped orders #639, #662
 * Added `withdraw_permission` API calls #676
+* Added Travis-CI build status iconds for branches: master, develop, hardfork, testnet and bitshares-fc #748
+* Added New plugin: elasticsearch objects #500
 * Changed `get_account_history` API call #628 (for issue #613)
 * Enabled Travis-CI for develop branch #748
 * Issue491: Minor delta_debt amount check issue in `call_order_update_evaluator` #609
