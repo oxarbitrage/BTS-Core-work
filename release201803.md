@@ -51,12 +51,12 @@
 
 
 ## Other changes
-* Changed to intense block_tests #718
-* Replaced readline library, Issue 673 #685 (-for peer review. Submitted a PR to fc repo: bitshares/bitshares-fc#16 #17.)
-* Removed unused transaction_object.cpp #667
-* Removed `by_feed_expiration` index from `asset_bitasset_data_object` #652
-* Removed redundant template func add_secondary_index #749
-* Removed unused index.cpp file #638
+* Changed to intense block_tests https://github.com/bitshares/bitshares-core/issues/565 - https://github.com/bitshares/bitshares-core/pull/718
+* Replaced readline library, https://github.com/bitshares/bitshares-core/issues/673 - https://github.com/bitshares/bitshares-core/pull/685
+* Removed unused transaction_object.cpp https://github.com/bitshares/bitshares-core/pull/667
+* Removed `by_feed_expiration` index from `asset_bitasset_data_object` https://github.com/bitshares/bitshares-core/issues/652 - https://github.com/bitshares/bitshares-core/pull/654
+* Removed redundant template func add_secondary_index https://github.com/bitshares/bitshares-core/pull/749
+* Removed unused index.cpp file https://github.com/bitshares/bitshares-core/pull/638
 * Fixed outdated header comments in egenesis_brief.cpp.tmpl and egenesis_full.cpp.tmpl https://github.com/bitshares/bitshares-core/issues/728 - https://github.com/bitshares/bitshares-core/pull/734
 
 
