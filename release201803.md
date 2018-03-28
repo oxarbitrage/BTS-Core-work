@@ -6,11 +6,10 @@
 * Reviewed all new `FC_ASSERT` added to next milestone #678
 
 ## Features and Improvements
-* Added API's to get `withdraw_permission` objects related to an account #611
-* Added application option to disable `notify_remove_create` parameter in `set_subscribe_callback` API #725
-  - Temporarily removed enable-subscribe-to-all option (*Uncomment when GUI is ready) #743 
-  - Set default value of `application_options::enable_subscribe_to_all` to `true` #740
-* Added assertion messages in account evaluator. #736
+* Added API's to get `withdraw_permission` objects related to an account https://github.com/bitshares/bitshares-core/issues/611 - https://github.com/bitshares/bitshares-core/pull/676
+* Added application option to disable `notify_remove_create` parameter in `set_subscribe_callback` API https://github.com/bitshares/bitshares-core/pull/725
+  - Temporarily removed enable-subscribe-to-all option (*Uncomment when GUI is ready) https://github.com/bitshares/bitshares-core/issues/740 - https://github.com/bitshares/bitshares-core/issues/743
+* Added assertion messages in account evaluator. https://github.com/bitshares/bitshares-core/issues/691 - https://github.com/bitshares/bitshares-core/pull/736
 * Added `broadcast_transaction` method for broadcasting transaction signed by … #656
 * Added CLI wallet test framework #675
 * Added `get_top_markets` API #512, #737
